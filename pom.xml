@@ -4,12 +4,16 @@
   <artifactId>BotBinance</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>BotBinance</name>
-  <dependencies>
+    <properties>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
+    </properties>
+    <dependencies>
   <dependency>
     <groupId>org.asynchttpclient</groupId>
     <artifactId>async-http-client</artifactId>
     <version>2.12.3</version>
-    
+
 </dependency>
 <dependency>
     <groupId>org.slf4j</groupId>
