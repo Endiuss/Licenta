@@ -1,0 +1,39 @@
+{
+  "SecretKey": "hxtapTJmzvOpfRHRkQwfmk1hqgeRt5gooU4O0VsV9PB0QDoTihfwZ6LUJ05F3TQD",
+  "ApiKey": "JRgMYQodpB3is9GeqCQ9Sun7WPgdh18kuEteb1VpzIlLkhn5MlirFELjwkaNSj4y",
+  "MaxActivePairs": 5,
+  "pairs": [
+    
+   
+   
+    {
+      "SellTradingZones": [
+
+      ],
+      "perProfitTarget": 0.005,
+      "minLiqValue": 2000,
+      "maxBalQty": 10000,
+      "lev": 1,
+      "pair": "APTUSDT",
+      "perMode": false,
+      "initialTradeValue": 6.5,
+      "tradingZones": [
+        {
+          "tradeNr": 10,
+          "priceDeviation": 0.01
+        },
+        {
+          "tradeNr": 9999,
+          "priceDeviation": 0.01
+        }
+      ],
+      "profitDeviationsTargets": [
+        {"rangeDeviation": 0.368,
+        "qtyPercent":1}
+      ]
+    },
+     
+     
+    
+  ]
+}
